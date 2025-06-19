@@ -1,0 +1,7 @@
+[core]
+    remote = nas-remote
+[cache]
+    dir = ../mnt/nas/dvc-storage
+    type = "hardlink,copy"
+['remote "nas-remote"']
+    url = ssh://192.168.0.207/207_2020/sample
